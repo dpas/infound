@@ -1,0 +1,26 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World!</title>
+    <meta name="description" content="A very important announcement." />
+    <style type="text/css">
+      #hello_world{
+        width: 80px;
+        height: 35px;
+        background-image:url('/images/hello_world.png');
+      }
+    </style>
+  </head>
+  <body>
+    <p>Hello World!</p>
+    <div id="hello_world"></div>
+    <p><script type="text/javascript">
+      document.write('Hello World');
+    </script></p>
+    <% @output = 'Hello World' -%>
+    <p> <%= @output -%> </p>
+  </body>
+</html>
+
